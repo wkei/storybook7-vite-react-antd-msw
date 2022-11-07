@@ -17,6 +17,13 @@ export const Primary: Story = {
   },
 };
 
+export const Tailwind: Story = {
+  args: {
+    className: "border-solid border-orange-600 border-1 text-orange-700",
+    children: "Click me",
+  }
+}
+
 export const TestMockWorker: Story = {
   args: {
     children: 'hello',
@@ -25,6 +32,7 @@ export const TestMockWorker: Story = {
         .then(res => res.json())
         .then(data => alert(JSON.stringify(data)))
         .catch(err => console.error(err))
-    }
+    },
   },
-};
+}
+

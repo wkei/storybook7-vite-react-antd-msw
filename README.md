@@ -1,1 +1,1 @@
-pnpm + storybook 7 + vite + react + antd + less + msw
+pnpm + storybook 7 + vite + react + antd + less + tailwind + msw
